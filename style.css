@@ -16,7 +16,17 @@ p{
     justify-content: center;
     background-color: rgb(55, 55, 55);
 }
-
+.contenedor{
+    max-width: 50%;
+    height: auto;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 60px;
+    box-shadow: 0 0 8px #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 /* Celulares */
 @media only screen and (max-width: 767px) {
 
