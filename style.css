@@ -8,6 +8,14 @@ p{
     height: min-content;
     width: fit-content;
 }
+.hero{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(55, 55, 55);
+}
 
 /* Celulares */
 @media only screen and (max-width: 767px) {
