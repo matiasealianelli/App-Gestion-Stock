@@ -9,30 +9,32 @@ p{
     width: fit-content;
 }
 .hero{
+    color: #e6eafc;
     height: 100vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(55, 55, 55);
+    background-color: rgb(3, 10, 31);
 }
 .contenedor{
     max-width: 50%;
     height: auto;
-    background-color: #ffffff;
+    background-color: #0a1129;
     border-radius: 5px;
     padding: 60px;
-    box-shadow: 0 0 8px #ffffff;
+    /* box-shadow: 0 0 8px #ffffff; */
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .titulo{
+    font-size: 2em;
     padding: 0 30px 30px ;
 }
 .parrafo{
     font-size: 12px;
-    font-weight: 500;
+
 }
 .contenedorIngreso{
     display: flex;
@@ -40,9 +42,10 @@ p{
     margin-top: 30px;
 }
 .btnIngreso{
-    color: white;
+    color: black;
+    font-weight: 500;
     border: none;
-    background-color: #2d0c3b;
+    background-color: #839af2;
     padding: 10px 20px;
     border-radius: 5px;
 }
